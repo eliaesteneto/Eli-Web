@@ -2,14 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>loja digital</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Minha loja virtual</h1>
+        <h1>Minha loja digital</h1>
     </header>
-    <script src="script.js"></script>
+    <main>
+        <section class="produtos"> 
+            <div class="lista-produtos">
+                <div class="produto">
+                <h2>Camiseta</h2>
+                <img src="https://img.joomcdn.net/335f05aff566552585e75dd68b994283154490c1_original.jpeg"></img>
+                <p>R$: 120,00</p>
+                <button class="add-item">Adicionar</button>
+                </div>
+
+                 <div class="produto">
+                <h2>Tênis</h2>
+                <img src="https://trilhaesportes.fbitsstatic.net/img/p/tenis-converse-all-star-chuck-taylor-seasonal-colors-feminino-azul-71837/273378-1.jpg?w=1200&h=1200&v=no-value"></img>
+                <p>R$: 50,00</p>
+                <button class="add-item">Adicionar</button>
+                </div>
+
+                 <div class="produto">
+                <h2>pulseira</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8w08HzGlKDH8W-xVmSZyOABx1pQXVmM25A&s"></img>
+                <p>R$: 30,00</p>
+                <button class="add-item">Adicionar</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="carrinho">
+            <h2>Carrinho</h2>
+            <ul id="lista-carrinho"></ul>
+            <p id="total">Total R$:00,00</p>
+
+        </section>
+    </main>
+    <script scr="script.js" ></script>
 </body>
 </html>
