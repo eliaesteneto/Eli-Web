@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: #f8f9fd;
+}
+
+img{
+    width: 120px;
+}
+
+header{
+    background-color: rgb(39, 39, 114);
+    padding: 10px;
+    text-align: center;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
